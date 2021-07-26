@@ -1,0 +1,108 @@
+@import url(reset.css);
+
+#navbar { 
+	color: red; 
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+	z-index: 2; 
+	font: 50px Arial;
+	text-align: center;
+} 
+
+.logo { 
+	float: left; 
+	margin-left: 50px; 
+	/*padding-left: ;*/
+} 
+.menu{
+	float: right;  
+	text-align: right; 
+}
+
+
+#navbar li { 
+	display: inline-block; 
+
+} 
+
+#navbar li a { 
+	text-decoration: none;
+	color: red;
+	margin: 0 25px; 
+}
+
+
+.image_cont{
+	position: relative;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+}
+
+.image_text{
+	position: absolute;
+	font: 100px Arial;
+	color: #E50043;
+}
+
+.firstout{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.firstin{
+	margin: 175px;
+	padding: 25px;
+	width: 1040px;
+	border: 1px solid #E50043, 100%;
+	/*text-align: left;*/
+	font: 400 25px Arial;
+}
+
+.secondout{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.thirdin{
+	display: flex;
+	justify-content: center;
+
+}
+.thirdin{
+	margin: 175px;
+	padding: 30px;
+	width: 1040px;
+	border: 1px solid #E50043, 100%;
+	/*text-align: left;*/
+	
+}
+.thirdin_text{
+	font: 400 25px Arial;
+	display: flex;
+	padding-left: 80px;
+	text-align: left;
+}
+.thirdin__image{
+	align-self: flex-start; 
+}
+
+.footer{
+	font: 700 25px Helvetica;
+	background-color: #E50043, 100%;
+	padding: 50px;
+	color: white;
+	background-color: #F8BFC7;
+}
+.left, .right{
+	display: inline-block;
+}
+
+.right{
+	/*text-align: right;*/
+	float: right;
+}ы

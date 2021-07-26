@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+@keyframes gravity{
+	from{
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+.page{
+	background-color: black;
+	display: flex;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
+.sun{
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+	background-color: lightyellow;
+	/*background-position: center;*/
+	margin: auto;
+}
+
+.earth{
+	width: 400px;
+	height: 400px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Light_Blue_Circle.svg/1200px-Light_Blue_Circle.svg.png);
+/*	background-color: dimgray;*/
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	animation-name: gravity;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*animation-direction: alternate;*/
+
+
+}
+
+/*.earth:hover{
+	transform: rotate(360deg);
+}*/
+

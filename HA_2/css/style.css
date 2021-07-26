@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+/*div.head{
+	font: 50px, 700, Helvetica, normal;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: Helvetica, normal;
+	color: white;
+	background-color: yellow;
+	
+}
+*/
+.properties{
+	background-color: #E5E000;
+	color: white;
+}
+
+.head{
+	width: 1440px;
+	height: 200px;
+	font: 700 50px Helvetica, normal;
+}
+
+
+
+.image{
+	background-image: url(../img/body.jpg);
+	width: 1440px;
+	height: 1080px;
+}
+
+.separator{
+	width: 1440px;
+	height: 100px;
+	font: 700 25px Helvetica, normal;
+}
+
+
+.btext{
+	background-color: white;
+	color: black;
+	font: 300 50px Helvetica, normal;
+	
+}
+.btext header{
+	font: 700 50px Helvetica, normal;
+
+}
+.footer {
+	width: 1440px;
+	height: 200px;
+}
+
+.footer div{
+	width: 205px;
+	height: 46px;
+	background-image: url(../img/logo.svg);
+}
+.footer p{
+	font: 700 50px Helvetica, normal;
+	text-align: right;
+}

@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+.header{
+	background-color: red;
+	color: white;
+	font: 700 25px Helvetica;
+	text-align: center;
+	padding: 1%;
+}
+
+.outerbody{
+	text-align: center;
+}
+
+
+
+.recipe{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 2.4%;
+	width: 400px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	display: inline-block;
+	text-align: left;
+	color: black;
+
+	font: 700 25px Helvetica;
+
+}
+
+.recipe.second{
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+.recipe p{
+	font: 400 20px Times New Roman;
+	margin-top: 31px ;
+}
+
+.footer{
+	font: 700 25px Helvetica;
+	background-color: red;
+	padding: 1%;
+	color: white;
+}
+.left, .right{
+	display: inline-block;
+}
+
+.right{
+	float: right;
+}
