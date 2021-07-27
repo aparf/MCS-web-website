@@ -1,0 +1,74 @@
+@import url(reset.css);
+
+.navouter{
+	height: 160px;
+	background-color: #FFE138;
+	display: flex;
+}
+
+.navin{
+	margin: auto;
+	text-transform: uppercase;
+	font: normal 50px Times New Roman;
+}
+
+.columns{
+	min-height: 300px;
+	width: 80vw;
+	margin: 70px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	/*flex-wrap: wrap;*/
+	/*background-color: lightgrey;*/
+}
+
+
+.column{
+	width: calc((100% - 100px)/3);
+	/*background-color: coral;*/
+	border: 1px solid black;
+}
+
+.image{
+	width: 100%;
+	height: auto;
+
+}
+
+.column.first{
+	height: auto;
+}
+
+.img{
+	background-image: url(../img/ClickShelf.jpg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 150%;
+
+}
+
+.text{
+	font: normal 20px Times New Roman;
+	padding: 33px;
+}
+.text h1{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.footer{
+	padding: 51px;
+	background-color: #FFE138;
+	font: normal 25px Times New Roman;
+}
+
+.left, .right{
+	display: inline-block;
+}
+
+.right{
+	/*text-align: right;*/
+	float: right;
+}
