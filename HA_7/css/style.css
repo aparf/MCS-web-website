@@ -1,0 +1,97 @@
+@import url(reset.css);
+
+.navouter{
+	height:10vh;
+	background-color: blue;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.navin{
+	font: normal 25px Helvetica;
+	padding-left: 20px;
+}
+
+
+.news{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.new{
+	margin: auto;
+	font: bold 25px Helvetica;
+	flex-basis: 1;
+	/*flex: 1;*/
+	width: 330px;
+	height: 165px;
+	display: flex;
+	border: 5px solid black;
+}
+
+.new p{
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}
+
+.footerouter{
+	height:10vh;
+	background-color: blue;
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font: normal 25px Helvetica;
+}
+.footerin{
+	padding: 20px;
+}
+
+.left, .right{
+	display: inline-block;
+
+}
+.left{
+	font-size: 0px;
+}
+.right{
+	float: right;
+}
+
+
+@media screen and (min-width: 812px){
+	.navouter{
+		height:10vw;
+	}
+	.footerouter{
+		height: 10vw;
+	}
+	.news{
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: stretch;
+	}
+
+	.new{
+
+		width: 330px;
+		min-height: 120px;
+	}
+
+	.left{
+	font-size: 25px;
+	}
+
+
+}
